@@ -8,13 +8,28 @@ You can also include images in this folder and reference them in the markdown. E
 -->
 
 ## How it works
-
-Explain how your project works
+Uses a configuration of NAND gates to give OR logic.
 
 ## How to test
+IN0 and IN1 are inputs for NAND configured as an OR gate.
+OUT0 is output for NAND configured as an OR gate.
 
-Explain how to use your project
+IN2 and IN3 are inputs for OR gate.
+OUT1 is output for OR gate.
 
-## External hardware
+Behaviour should be as logic tables state below:
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+IN0 | IN1 | OUTPUT
+-------------------
+ 0  |  0  |   0
+ 0  |  1  |   1
+ 1  |  0  |   1
+ 1  |  1  |   1
+
+IN2 | IN3 | OUTPUT
+-------------------
+ 0  |  0  |   0
+ 0  |  1  |   1
+ 1  |  0  |   1
+ 1  |  1  |   1
+
