@@ -16,23 +16,3 @@ OUT0 is output for NAND configured as an OR gate.
 
 IN2 and IN3 are inputs for OR gate.
 OUT1 is output for OR gate.
-
-Behaviour should be as truth tables state below:
-
-----------------------
-| IN0 | IN1 | OUTPUT |
-|--------------------|
-|  0  |  0  |   0    |
-|  0  |  1  |   1    | 
-|  1  |  0  |   1    |
-|  1  |  1  |   1    |
-----------------------
-
-----------------------
-| IN2 | IN3 | OUTPUT |
-|--------------------|
-|  0  |  0  |   0    |
-|  0  |  1  |   1    | 
-|  1  |  0  |   1    |
-|  1  |  1  |   1    |
-----------------------
